@@ -1,0 +1,117 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font: 18px Arial, sans-serif;
+    background: #f1f1f1;
+    color: #c2c2c2;
+}
+header {
+    padding-top: 40px;
+}
+.search-form {
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+}
+.search-input {
+    width: 100%;
+    padding: 0 80px 0 10px;
+    font-weight: 700;
+    border: none;
+    background: transparent;
+    font-size: 110px;
+    color: #ec5a62;
+}
+::placeholder{
+    color: #c2c2c2;
+}
+.search-input:focus,
+.search-button:focus {
+    outline: none;
+}
+.search-button {
+    width: 80px;
+    height: 80px;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    top: calc(50% - 40px);
+    right: 0px;
+    overflow: hidden;
+    transition: all .1s ease-in;
+    background: transparent url("./../img/magnifier.svg") no-repeat center center;
+}
+main {
+    color: #333;
+    margin-top: 40px;
+    width: 100%;
+    padding: 0 10.5%;
+    font-size: 0;
+}
+section {
+    font-size: 16px;
+    width: 30%;
+    padding: 0 0 100px;
+    display: inline-block;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #c2c2c2;
+}
+a {
+    text-decoration: none;
+    padding: 14px;
+    display: block;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+
+    background: rgba(118,117,128,0.05);
+    color: rgba(145,145,145,0.7);
+}
+a:hover{
+    color: #EC5A62;
+}
+li:hover{
+    background-color: rgba(118,117,128,0.1);
+}
+img{
+    display: inline-block;
+    width: 50px;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+}
+.people img{
+    border-radius: 50%;
+}
+.popular{
+    margin: 0 5%;
+}
+.search-button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.title{
+    vertical-align: middle;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 700;
+    margin: 0 0 0 0;
+    width: calc(100% - 70px);
+    color: inherit;
+}
+
+
+
+
