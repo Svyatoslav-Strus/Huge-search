@@ -4,17 +4,18 @@
     box-sizing: border-box;
 }
 body {
-    font: 16px Arial, sans-serif;
-    background: #f1f1f1;
+    font-family: Arial, sans-serif;
+    font-size: 16px ;
+    background-color: #f1f1f1;
     color: #c2c2c2;
 }
 header {
     padding-top: 40px;
 }
 .search-form {
+    width: 80%;
     margin: 0 auto;
     position: relative;
-    width: 80%;
 }
 .search-input {
     width: 100%;
@@ -103,11 +104,11 @@ img{
     cursor: pointer;
 }
 .title{
+    display: inline-block;
     vertical-align: middle;
     font-size: 14px;
-    display: inline-block;
-    font-weight: 700;
-    margin: 0 0 0 0;
+    font-weight: bold;
+    margin: 0;
     width: calc(100% - 70px);
     color: inherit;
 }
